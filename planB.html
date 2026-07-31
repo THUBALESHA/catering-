@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plan B</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#111;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.plan-card{
+    width:360px;
+    background:#000;
+    border:3px solid #d4af37;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 0 25px rgba(212,175,55,.5);
+}
+
+.plan-header{
+    background:linear-gradient(180deg,#1b1b1b,#000);
+    padding:25px;
+    text-align:center;
+    border-bottom:2px solid #d4af37;
+}
+
+.plan-header h1{
+    color:#fff;
+    font-size:48px;
+    letter-spacing:2px;
+}
+
+.plan-header p{
+    color:#d4af37;
+    font-size:18px;
+    font-weight:bold;
+    margin-top:5px;
+}
+
+.prices{
+    padding:20px;
+    color:#fff;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.price-row{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:15px;
+}
+
+.price{
+    color:#FFD700;
+    font-size:30px;
+}
+
+.features{
+    background:#fff;
+    padding:20px;
+}
+
+.features ul{
+    list-style:none;
+}
+
+.features li{
+    font-size:20px;
+    margin:12px 0;
+    color:#222;
+}
+
+.features li::before{
+    content:"✔";
+    color:#d4af37;
+    font-weight:bold;
+    margin-right:12px;
+}
+
+.cash{
+    background:linear-gradient(180deg,#1b1b1b,#000);
+    text-align:center;
+    padding:20px;
+    border-top:2px solid #d4af37;
+}
+
+.cash p{
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.cash h2{
+    color:#FFD700;
+    font-size:55px;
+    margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="plan-card">
+
+<div class="plan-header">
+<h1>PLAN B</h1>
+<p>(GROCERY + PLAN A)</p>
+</div>
+
+<div class="prices">
+<div class="price-row">
+<span>Member +5 Premium</span>
+<span class="price">R370</span>
+</div>
+
+<div class="price-row">
+<span>Member +9 Premium</span>
+<span class="price">R500</span>
+</div>
+</div>
+
+<div class="features">
+<ul>
+<li>Chef and Assistant</li>
+<li>5 × 5kg Drumsticks</li>
+<li>2 Starch</li>
+<li>2 Veggies</li>
+<li>2 Salads</li>
+<li>100% Juicy</li>
+</ul>
+</div>
+
+<div class="cash">
+<p>OR CASH BENEFIT OF</p>
+<h2>R10,000.00</h2>
+</div>
+
+</div>
+
+</body>
+</html>
